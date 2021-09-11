@@ -1,0 +1,53 @@
+.contact {
+  padding: 5rem 0;
+  background-color: #eaf2fa;
+}
+.contacts {
+  display: flex;
+}
+.Left_contact {
+  flex: 1 0 0 40%;
+  width: 400px;
+}
+.Left_contact h1 {
+  font-size: 40.5px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+}
+
+.right_contact {
+  width: 700px;
+}
+input {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  width: 700px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 13px;
+  border: none;
+}
+textarea {
+  width: 700px;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.4rem 1.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid #795548;
+  color: #795548;
+  transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+  background: #795548;
+  color: white;
+}

@@ -1,0 +1,87 @@
+.experience {
+  margin-bottom: 5rem;
+}
+.experience_left_mid_right {
+  display: flex;
+}
+.Left_experience {
+  flex: 1 0 0 40%;
+  padding-right: 9rem;
+}
+.Left_experience h1 {
+  padding-top: 1rem;
+  font-size: 40.5px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+}
+.mid_experience {
+  margin-top: 5.9rem;
+}
+.dot_line span i {
+  font-size: 1.5rem;
+  color: #795549;
+  margin-right: 2.5rem;
+}
+.vl {
+  border-left: 1px solid black;
+  height: 230px;
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.vl2 {
+  border-left: 1px solid black;
+  height: 320px;
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.right_experience {
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+.right_experience .card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 4px;
+  transition: 0.3s all ease-in-out;
+  height: auto;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.right_experience h1 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: montserrat, sans-serif;
+  color: #0000008a;
+  margin-bottom: 0.5rem;
+}
+.right_experience h2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.right_experience .city_date h1 {
+  color: gray;
+  font-weight: 200;
+  font-size: 14px;
+  margin-bottom: 0.8rem;
+}
+.right_experience p {
+  margin-left: 2rem;
+  font-weight: 200;
+  margin-bottom: 0.8rem;
+}
+
+.right_experience ul li {
+  margin-left: 2rem;
+  font-weight: 200;
+  margin-bottom: 0.8rem;
+}

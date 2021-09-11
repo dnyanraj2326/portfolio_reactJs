@@ -1,0 +1,45 @@
+.skill_page {
+  background-color: #eaf2fa;
+  margin-top: 6rem;
+  height: auto;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.hed h4 {
+  text-align: center;
+  color: #313131;
+  font-size: 40.5px;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+.skill_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-row-gap: 1rem;
+  padding-bottom: 5.3rem;
+}
+
+.cards {
+  padding: 1.5rem 3rem;
+}
+
+.icons i {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.title_desc h1 {
+  font-size: 25px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.title_desc p {
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #555;
+}

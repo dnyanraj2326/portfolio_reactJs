@@ -1,0 +1,103 @@
+.popularTopic {
+  padding: 5rem 0;
+}
+.topic {
+  display: flex;
+}
+.Left_topic {
+  flex: 1 0 0 40%;
+  width: 400px;
+}
+.Left_topic h1 {
+  font-size: 40.5px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+}
+
+.right_topic {
+  width: 700px;
+}
+.word h1 {
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word h2 {
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word p {
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word h3 {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word {
+  display: flex;
+  line-height: 3;
+  color: #795548;
+  cursor: pointer;
+}
+.word2 {
+  display: flex;
+  line-height: 3;
+  color: #795548;
+  cursor: pointer;
+}
+.word2 h1 {
+  font-size: 1.9rem;
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word2 h2 {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  color: #795548;
+}
+.word2 h4 {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+
+.word h1:hover {
+  text-decoration: underline;
+}
+.word h2:hover {
+  text-decoration: underline;
+}
+.word h3:hover {
+  text-decoration: underline;
+}
+.word p:hover {
+  text-decoration: underline;
+}
+.word h5:hover {
+  text-decoration: underline;
+}
+
+.word2 h6:hover {
+  text-decoration: underline;
+}
+.word h1:hover {
+  text-decoration: underline;
+}
+.word2 h2:hover {
+  text-decoration: underline;
+}
+.word2 h3:hover {
+  text-decoration: underline;
+}
+.word2 p:hover {
+  text-decoration: underline;
+}
+.word2 h5:hover {
+  text-decoration: underline;
+}
+
+.word2 h6:hover {
+  text-decoration: underline;
+}

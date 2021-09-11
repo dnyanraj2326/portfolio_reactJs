@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home/Home';
+import Skill from './Pages/Skill/Skill';
+import Experience from './Pages/Experience/Experience';
+import RecentPosts from './Pages/RecentPosts/RecentPosts';
+import Projects from './Pages/Projects/Projects';
+import { BrowserRouter } from 'react-router-dom';
+import RecentProject from './Pages/RecentProject/RecentProject';
+import PopularTopics from './Pages/PopularTopics/PopularTopics';
+import Contact from './Pages/Contact/Contact';
+import Footer from './Components/Footer';
+import React from 'react';
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter >
+      <Navbar />
+      <Home />
+      <Skill />
+      <Experience />
+      <RecentPosts />
+      <Projects />
+      <RecentProject />
+      <PopularTopics />
+      <Contact />
+      <Footer />
+    </BrowserRouter>
+  )
 }
 
 export default App;

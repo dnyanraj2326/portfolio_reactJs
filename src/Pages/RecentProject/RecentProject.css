@@ -1,0 +1,50 @@
+.Recentproject {
+  background-color: #eaf2fa;
+  padding: 5rem 0;
+}
+.projuct_right {
+  padding-top: 1rem;
+}
+
+.post {
+  display: flex;
+}
+.title_left {
+  flex: 1 0 0;
+}
+.title_left h1 {
+  font-size: 40.5px;
+  font-weight: 400;
+  font-family: montserrat, sans-serif;
+}
+.post_img {
+  display: flex;
+}
+.text_wrappers {
+  margin-bottom: 3rem;
+}
+.text_wrappers h1 {
+  font-size: 1.2rem;
+  font-family: montserrat, sans-serif;
+  width: 750px;
+  font-weight: 400;
+}
+.text_wrappers p {
+  color: #000000cc;
+  margin-top: 0.6rem;
+}
+
+.text_wrappers button {
+  padding: 5px 8px;
+  border-radius: 4px;
+  border: 1px solid #795548;
+  outline: none;
+  color: #795548;
+  margin-top: 0.7rem;
+  font-size: 10px;
+  transition: 0.3s all ease-in-out;
+}
+.text_wrappers button:hover {
+  background-color: #795548;
+  color: white;
+}
