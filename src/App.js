@@ -5,7 +5,6 @@ import Skill from './Pages/Skill/Skill';
 import Experience from './Pages/Experience/Experience';
 import RecentPosts from './Pages/RecentPosts/RecentPosts';
 import Projects from './Pages/Projects/Projects';
-import { BrowserRouter } from 'react-router-dom';
 import RecentProject from './Pages/RecentProject/RecentProject';
 import PopularTopics from './Pages/PopularTopics/PopularTopics';
 import Contact from './Pages/Contact/Contact';
@@ -15,7 +14,7 @@ import React from 'react';
 function App() {
  
   return (
-    <BrowserRouter >
+    <>
       <Navbar />
       <Home />
       <Skill />
@@ -26,7 +25,7 @@ function App() {
       <PopularTopics />
       <Contact />
       <Footer />
-    </BrowserRouter>
+    </>
   )
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Project.css';
 import ProjectData from './ProjectData';
-import {Link} from 'react-router-dom'
 
 const Projects = () => {
     return (
@@ -21,7 +20,7 @@ const Projects = () => {
                                                 <h1>{ProjectData.title}</h1>
                                                 <p> {ProjectData.subTitle} </p>
                                                 <ul>
-                                                    <li> <Link to="/"> {ProjectData.author}</Link> </li>
+                                                    <li>{ProjectData.author}</li>
                                                 </ul>
                                                 <button><i class={ProjectData.icon}></i> &nbsp; {ProjectData.category}</button>
                                             </div>
